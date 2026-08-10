@@ -83,17 +83,6 @@
       <MCPCompileOptions Condition=" '$(Configuration)' == 'Release' ">00000000</MCPCompileOptions>
       <MappedHostFileLocation>??TESTVM/DISK/&lt;MYUSERCODE&gt;/COBOL/EMPLOYEE/HELLOWORLD</MappedHostFileLocation>
     </None>
-    <None Include="COBOL\Test\DISPLAY_COBOL.c85_m">
-      <PatchMode>None</PatchMode>
-      <RelativePath>??TESTVM/DISK/(PANDASUB)/DESCRIPTION/DISPLAY_COBOL</RelativePath>
-      <SeqDataMarkID>False</SeqDataMarkID>
-      <MCPBuildType Condition=" '$(Configuration)' == 'Debug' ">Default</MCPBuildType>
-      <MCPCompilerOptionCheck Condition=" '$(Configuration)' == 'Debug' ">True</MCPCompilerOptionCheck>
-      <MCPCompileOptions Condition=" '$(Configuration)' == 'Debug' ">10000000</MCPCompileOptions>
-      <MCPBuildType Condition=" '$(Configuration)' == 'Release' ">Default</MCPBuildType>
-      <MCPCompilerOptionCheck Condition=" '$(Configuration)' == 'Release' ">False</MCPCompilerOptionCheck>
-      <MCPCompileOptions Condition=" '$(Configuration)' == 'Release' ">00000000</MCPCompileOptions>
-    </None>
     <None Include="DASDL\EMPLOYEEDB.das_m">
       <PatchMode>None</PatchMode>
       <RelativePath>LocalFile</RelativePath>
@@ -120,13 +109,6 @@
       <MCPBuildType Condition=" '$(Configuration)' == 'Debug' ">Custom</MCPBuildType>
       <MCPBuildType Condition=" '$(Configuration)' == 'Release' ">Custom</MCPBuildType>
     </None>
-    <None Include="WFL\TEST\DISPLAY_WFL.wfl_m">
-      <PatchMode>None</PatchMode>
-      <RelativePath>??TESTVM/DISK/(PANDASUB)/DESCRIPTION/DISPLAY_WFL</RelativePath>
-      <SeqDataMarkID>False</SeqDataMarkID>
-      <MCPBuildType Condition=" '$(Configuration)' == 'Debug' ">Custom</MCPBuildType>
-      <MCPBuildType Condition=" '$(Configuration)' == 'Release' ">Custom</MCPBuildType>
-    </None>
     <None Include="WFL\TEST\SAMPLE.wfl_m">
       <PatchMode>None</PatchMode>
       <RelativePath>LocalFile</RelativePath>
@@ -134,6 +116,13 @@
       <MCPBuildType Condition=" '$(Configuration)' == 'Debug' ">Custom</MCPBuildType>
       <MCPBuildType Condition=" '$(Configuration)' == 'Release' ">Custom</MCPBuildType>
       <MappedHostFileLocation>??TESTVM/DISK/(SABAH)/OBJECT/COBOL/EMPLOYEE/SAMPLE</MappedHostFileLocation>
+    </None>
+    <None Include="WFL\TEST\TESTING.wfl_m">
+      <PatchMode>None</PatchMode>
+      <RelativePath>??TESTVM/DISK/(PANDASUB)/TESTING</RelativePath>
+      <SeqDataMarkID>False</SeqDataMarkID>
+      <MCPBuildType Condition=" '$(Configuration)' == 'Debug' ">Custom</MCPBuildType>
+      <MCPBuildType Condition=" '$(Configuration)' == 'Release' ">Custom</MCPBuildType>
     </None>
   </ItemGroup>
   <PropertyGroup>

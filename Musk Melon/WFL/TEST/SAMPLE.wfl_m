@@ -9,8 +9,10 @@ DISPLAY "HELLO WORLD 2";                                                        
 DISPLAY "HELLO WORLD 2";                                                          00003583
 %COMMENT 1                                                                        00003666
 %END                                                                              00003750
-                                                                                  00003875
+%This is test Comment.                                                            00003875
+%This is comment2.                                                                00003906
 %test comment                                                                     00003937
 %sdf                                                                              00003952
 %test comment JUly                                                                00003968
+DISPLAY "HELLO";                                                                  00003984
 END JOB;                                                                          00004000

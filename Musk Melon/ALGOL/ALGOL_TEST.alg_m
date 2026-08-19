@@ -7,9 +7,5 @@ BEGIN                                                                   00001000
   FOR I := 1 STEP 1 UNTIL 5 DO                                          00007000          
     FACT := FACT * I;                                                   00008000          
                                                                         00009000          
-  DISPLAY("FACTORIAL OF 5 = " CAT STRING(FACT, *));                     00009200          
-  DISPLAY("FACTORIAL OF 5 = " CAT STRING(FACT, *));                     00009400          
-  DISPLAY("FACTORIAL OF 5 = " CAT STRING(FACT, *));                     00009600          
-  DISPLAY("FACTORIAL OF 5 = " CAT STRING(FACT, *));                     00009800          
   DISPLAY("FACTORIAL OF 5 = " CAT STRING(FACT, *));                     00010000          
 END.                                                                    00011000          

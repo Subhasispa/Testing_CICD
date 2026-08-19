@@ -5,7 +5,13 @@ DISPLAY "HELLO WORLD 123";                                                      
 DISPLAY "QUITING";                                                                00003500
 DISPLAY "HELLO WORLD 2";                                                          00003504
 DISPLAY "HELLO WORLD 2";                                                          00003508
+DISPLAY "HELLO WORLD 2";                                                          00003509
+DISPLAY "HELLO WORLD 2";                                                          00003510
+DISPLAY "HELLO WORLD 2";                                                          00003511
 DISPLAY "HELLO WORLD 2";                                                          00003512
+DISPLAY "HELLO WORLD 2";                                                          00003513
+DISPLAY "HELLO WORLD 2";                                                          00003514
+DISPLAY "HELLO WORLD 2";                                                          00003515
 DISPLAY "HELLO WORLD 2";                                                          00003516
 DISPLAY "HELLO WORLD 2";                                                          00003520
 DISPLAY "HELLO WORLD 2";                                                          00003540

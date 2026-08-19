@@ -3,6 +3,10 @@ BEGIN JOB SAMPLE;                                                               
 DISPLAY "Hello, World!";                                                          00003000
 DISPLAY "HELLO WORLD 123";                                                        00003250
 DISPLAY "QUITING";                                                                00003500
+DISPLAY "HELLO WORLD 2";                                                          00003504
+DISPLAY "HELLO WORLD 2";                                                          00003508
+DISPLAY "HELLO WORLD 2";                                                          00003512
+DISPLAY "HELLO WORLD 2";                                                          00003516
 DISPLAY "HELLO WORLD 2";                                                          00003520
 DISPLAY "HELLO WORLD 2";                                                          00003540
 DISPLAY "HELLO WORLD 2";                                                          00003560

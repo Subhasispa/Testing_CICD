@@ -159,6 +159,21 @@ pipeline {
         // CD: runs automatically on the master build (i.e. after a PR is merged).
         //     The GitHub merge is the approval gate — no manual input prompt.
         // ----------------------------------------------------------------------
+        stage('Check for unsupported file types') {
+            when { branch 'master' }
+            // agent { label 'windows' }      // same Windows node as Backup/Deploy
+            steps {
+                // Runs BEFORE Backup so that if this merge contains a file type
+                // the pipeline doesn't recognise (wrong/new extension, e.g. an
+                // ALGOL file that isn't in MCP_EXTENSIONS), the build fails here
+                // instead of Backup/Deploy/Compile/Syntax-check each silently
+                // seeing "0 matching files" and reporting SUCCESS.
+                cleanWs()
+                checkout scm
+                bat 'powershell -NoProfile -ExecutionPolicy Bypass -File ci\\check-unsupported-files.ps1'
+            }
+        }
+
         stage('Backup') {
             when { branch 'master' }
             // agent { label 'windows' }      // needs Z: mapped + mcpcopy.exe on PATH

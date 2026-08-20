@@ -3,13 +3,24 @@ BEGIN JOB SAMPLE;                                                               
 DISPLAY "Hello, World!";                                                          00003000
 DISPLAY "HELLO WORLD 123";                                                        00003250
 DISPLAY "QUITING";                                                                00003500
+DISPLAY "HELLO WORLD 2";                                                          00003504
+DISPLAY "HELLO WORLD 2";                                                          00003508
+DISPLAY "HELLO WORLD 2";                                                          00003509
+DISPLAY "HELLO WORLD 2";                                                          00003510
+DISPLAY "HELLO WORLD 2";                                                          00003511
+DISPLAY "HELLO WORLD 2";                                                          00003512
+DISPLAY "HELLO WORLD 2";                                                          00003513
+DISPLAY "HELLO WORLD 2";                                                          00003514
+DISPLAY "HELLO WORLD 2";                                                          00003515
+DISPLAY "HELLO WORLD 2";                                                          00003516
 DISPLAY "HELLO WORLD 2";                                                          00003520
 DISPLAY "HELLO WORLD 2";                                                          00003540
 DISPLAY "HELLO WORLD 2";                                                          00003560
 DISPLAY "HELLO WORLD 2";                                                          00003583
 %COMMENT 1                                                                        00003666
 %END                                                                              00003750
-                                                                                  00003875
+%This is test Comment.                                                            00003875
+%This is comment2.                                                                00003906
 %test comment                                                                     00003937
 %sdf                                                                              00003952
 %sdf sdf                                                                          00003968

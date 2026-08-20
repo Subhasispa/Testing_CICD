@@ -14,3 +14,4 @@ DISPLAY "HELLO WORLD 2";                                                        
 %sdf                                                                              00003952
 %test comment JUly                                                                00003968
 END JOB;                                                                          00004000
+%comment August                                                                   00005000

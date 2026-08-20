@@ -24,6 +24,6 @@ DISPLAY "HELLO WORLD 2";                                                        
 %test comment                                                                     00003937
 %sdf                                                                              00003952
 %test comment JUly                                                                00003968
-%comment for RBAC                                                                 00003976
+%comment for RBAC testing                                                         00003976
 DISPLAY "HELLO";                                                                  00003984
 END JOB;                                                                          00004000
